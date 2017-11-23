@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A42841E91FBAF76B00494FEE /* TextStatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42841E81FBAF76B00494FEE /* TextStatsViewController.m */; };
 		A44D8F5F1FB9A47B0016091C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A44D8F5E1FB9A47B0016091C /* AppDelegate.m */; };
 		A44D8F621FB9A47B0016091C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A44D8F611FB9A47B0016091C /* ViewController.m */; };
 		A44D8F651FB9A47B0016091C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44D8F631FB9A47B0016091C /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A42841E71FBAF76B00494FEE /* TextStatsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextStatsViewController.h; sourceTree = "<group>"; };
+		A42841E81FBAF76B00494FEE /* TextStatsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextStatsViewController.m; sourceTree = "<group>"; };
 		A44D8F5A1FB9A47B0016091C /* Attributor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Attributor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A44D8F5D1FB9A47B0016091C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A44D8F5E1FB9A47B0016091C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -101,6 +104,8 @@
 		A44D8F5C1FB9A47B0016091C /* Attributor */ = {
 			isa = PBXGroup;
 			children = (
+				A42841E71FBAF76B00494FEE /* TextStatsViewController.h */,
+				A42841E81FBAF76B00494FEE /* TextStatsViewController.m */,
 				A44D8F5D1FB9A47B0016091C /* AppDelegate.h */,
 				A44D8F5E1FB9A47B0016091C /* AppDelegate.m */,
 				A44D8F601FB9A47B0016091C /* ViewController.h */,
@@ -268,6 +273,7 @@
 				A44D8F621FB9A47B0016091C /* ViewController.m in Sources */,
 				A44D8F6D1FB9A47B0016091C /* main.m in Sources */,
 				A44D8F5F1FB9A47B0016091C /* AppDelegate.m in Sources */,
+				A42841E91FBAF76B00494FEE /* TextStatsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CDZA42UB8C;
 				INFOPLIST_FILE = Attributor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = X2mobile.Attributor;
@@ -444,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CDZA42UB8C;
 				INFOPLIST_FILE = Attributor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = X2mobile.Attributor;
